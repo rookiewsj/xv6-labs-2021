@@ -2,7 +2,7 @@
 #include "kernel/stat.h"
 #include "user/user.h"
 
-char buf[512];
+char buf[512];//创建512字节的缓冲区
 
 void
 cat(int fd)
